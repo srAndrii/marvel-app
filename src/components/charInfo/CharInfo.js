@@ -1,5 +1,6 @@
 import {  useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 
 import Spinner from '../spiner/spiner';
 import ErrorMesage from '../errorMesage/ErrorMesage';
@@ -89,7 +90,7 @@ const View = ({ char }) => {
                         if (i > 9) return;
                         return (
                             <li key={i} className="char__comics-item">
-                                {item.name}
+                                <Link to={`/comics/${item.resourceURI.substr(-5).replace(/\D/g, '')}`}>{item.name}</Link>
                             </li>
                         )
                     })
