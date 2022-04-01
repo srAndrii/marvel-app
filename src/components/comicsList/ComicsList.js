@@ -5,9 +5,6 @@ import ErrorMesage from '../errorMesage/ErrorMesage';
 
 import './comicsList.scss';
 
-import uw from '../../resources/img/UW.png';
-import xMen from '../../resources/img/x-men.png';
-
 const ComicsList = () => {
 
     const [comicsList, setComicsList] = useState([]);
