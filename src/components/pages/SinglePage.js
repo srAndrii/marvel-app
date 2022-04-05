@@ -16,6 +16,7 @@ const SinglePage = ({Component, dataType}) => {
             updateData()
         }, [id])
 
+    
         const updateData = () => {
             clearError();
 

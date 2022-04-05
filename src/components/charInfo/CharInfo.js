@@ -91,6 +91,7 @@ const View = ({ char }) => {
                         return (
                             <li key={i} className="char__comics-item">
                                 <Link to={`/comics/${item.resourceURI.substr(-5).replace(/\D/g, '')}`}>{item.name}</Link>
+                                {/* {item.name} */}
                             </li>
                         )
                     })
