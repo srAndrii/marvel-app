@@ -7,13 +7,13 @@ import Skeleton from '../components/skeleton/Skeleton';
 const setContent = (process, Component, data) => {
     switch (process) {
         case 'waiting':
-            return <Skeleton/>;
+            return <Skeleton />;
         case 'loading':
-            return <Spinner/>;
+            return <Spinner />;
         case 'confirmed':
-            return <Component data={data}/>;
+            return <Component data={data} />;
         case 'error':
-            return <ErrorMesage/>;
+            return <ErrorMesage />;
         default:
             throw new Error('Unexpected process state');
     }

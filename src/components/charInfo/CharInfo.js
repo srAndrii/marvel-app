@@ -15,10 +15,8 @@ const CharInfo = (props) => {
 
     useEffect(() =>{
         updateChare()
+        // eslint-disable-next-line
     }, [props.charId])
-
-   
-
 
     const updateChare = () => {
         clearError()
@@ -36,15 +34,6 @@ const CharInfo = (props) => {
     const onCharLoaded = (char) => {
         setChar(char)
     }
-
-    
-
-    // const skeleton = char || loading || error ? null : <Skeleton />;
-    // const errorMessage = error ? <ErrorMesage /> : null;
-    // const spiner = loading ? <Spinner /> : null;
-    // const content = !(loading || error || !char) ? <View char={char} /> : null;
-
-    
 
     return (
         <div className="char__info">

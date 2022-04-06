@@ -13,6 +13,7 @@ const SinglePage = ({Component, dataType}) => {
 
         useEffect(() => {
             updateData()
+            // eslint-disable-next-line
         }, [id])
 
     
@@ -28,6 +29,9 @@ const SinglePage = ({Component, dataType}) => {
                 case 'character':
                     getCharacter(id).then(onDataLoaded)
                         .then(() => setProcess('confirmed'))
+                    break;
+                default:
+                    throw new Error('Unexpected process state');
 
             }
         }
