@@ -2,18 +2,18 @@ https://marvel-app01.netlify.app/
 
 ![image](https://user-images.githubusercontent.com/90868495/167886038-024c1fcc-a90a-4584-a1b2-13801bda0f95.png)
 
-PET - проект был разработан для изучения React и работы с сторонним API.\
-Проект разделен на два раздела "Characters" и "Comics"
-В разделе "Characters", вверху отображается рандомный персонаж каждые 20 с.
-Ниже список с 9 разными персонажами, с возможностью дозагрузки.
+PET - the project was developed to study React and work with third-party API.
+The project is divided into two sections: "Characters" and "Comics".
+In the "Characters" section, a random character is displayed at the top every 20 seconds.
+Below is a list of 9 different characters, with the possibility of additional loading.
 ![image](https://user-images.githubusercontent.com/90868495/167900413-f0eed76c-1c64-41b4-ae5b-ec3ccbaa07b5.png)
 ![image](https://user-images.githubusercontent.com/90868495/167900462-1b7ec600-5f91-45d7-86dc-bf5dab8030fe.png)
-При клике на персонажа, справа открывается его описание и список комиксов о нем, а также поиск по персонажам.
+When clicking on a character, their description and a list of comics about them open on the right, as well as a search by characters.
 ![image](https://user-images.githubusercontent.com/90868495/167900617-0c4843f1-8c10-454b-b651-5dc88f4255c7.png)
 
-В разделе "Comics" список комиксов. \
+In the "Comics" section, there is a list of comics. \
 ![image](https://user-images.githubusercontent.com/90868495/167900916-c5cf2232-2ac2-43c4-a313-13bc97cff92f.png)
-При клике на комикс открывается страница с комиксом
+When clicking on a comic, a page with the comic opens.
 ![image](https://user-images.githubusercontent.com/90868495/167901010-2e76c43b-6d0c-41e4-a5e9-cb7662c92fe6.png)
 
 # Getting Started with Create React App
